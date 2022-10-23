@@ -1,0 +1,177 @@
+body{
+  font-family: 'News Cycle', sans-serif;
+}
+h1 {
+
+}
+h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Ubuntu";
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+p{
+  color: grey;
+}
+#title {
+  background-color: #FF4668;
+  color: #fff;
+}
+.big-heading{
+  font-family: 'Paytone One', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* Navigation Bar */
+.navbar{
+  padding:0 0 6%;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/* Downloadbu-Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width:22.5%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  z-index: 0;
+
+}
+/* features section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+color: #ef8172;
+margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* testomonail */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px 20px 50px;
+}
+.testimonial-text{
+  margin-bottom:auto;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px;
+}
+/* pricing */
+#pricing{
+  padding: 100px;
+}
+.card{
+
+  text-align: center;
+ padding-left: 15px;
+  color: #fff;
+background-color: #ff4c68;
+  margin-left: 20px;
+padding-bottom: 15px;
+}
+.money{
+  width: 140px;
+  padding: 10px;
+  margin: 15px;
+}
+.card-body{
+  padding-bottom: 15px;
+}
+.price-card{
+  text-align: center;
+}
+.price-cap{
+  padding-bottom:10px;
+  text-align: center;
+}
+#cta{
+  background-color: #ff4c68;
+  height: 400px;
+  color: #fff;
+  text-align: center;
+  padding: 35px;
+  font-size: 10px;
+
+}
+#footer{
+  text-align: center;
+  padding: 50px 0 50px;
+  font-weight: bold;
+}
+.social-icon{
+  margin: 20px 10px;
+
+}
+
+  /* mobile */
+@media (max-width:1000px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 250px;
+    height: 420px;
+  }
+.card{
+  position:relative ;
+  left: 105px;
+  padding-top: 15px;
+}
+.price-card{
+  text-align: center;
+}
+.price-cap{
+  padding: 10px;
+  text-align: center;
+}
+}
